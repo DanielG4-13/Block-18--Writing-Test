@@ -1,0 +1,18 @@
+Functional Tests for Shopping Cart Checkout Feature-
+
+
+Empty Cart Check: If the cart is empty and a user tries to check out, show a "Your cart is empty" message with a link to shop more.
+
+Guest Checkout: When using "Checkout as Guest", show a form for shipping and payment details. Ask if they want to create an account before confirming the order.
+
+Logged-In User Checkout: For logged-in users, auto-fill their saved shipping and payment details. Let them update details before confirming.
+
+Guest Account Option: At the end of the guest checkout, ask if they want to create an account using their entered details. If they decline, finish the process smoothly.
+
+Order Summary: Always show an order summary with item names, prices, quantities, total cost, taxes, and shipping fees.
+
+Payment Errors: If payment details are wrong, show an error and ask the user to fix it.
+
+Successful Checkout: After finishing, show a confirmation page with the order number, delivery estimate, and order summary.
+
+Checkout Errors: If something goes wrong, show an error message and let the user try again.
